@@ -102,7 +102,7 @@ export default function RootLayout({
                 ))}
               </List>
             </Drawer>
-            <Box
+            <Box 
               component="main"
               sx={{
                 flexGrow: 1,
@@ -120,3 +120,5 @@ export default function RootLayout({
     </RTKProvider>
   );
 }
+
+
